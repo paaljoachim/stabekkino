@@ -348,11 +348,6 @@ Clicking a menu link shows a white background square. To adjust this add the fol
 	cursor: pointer;
 }
 
-.gridable--col.col-6 {
-	background: #f9f7f7 !important;
-	padding: 15px;
-}
-
 .evo_cal_above {
     padding-bottom: 0;
 }
