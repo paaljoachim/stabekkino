@@ -1,0 +1,363 @@
+/*
+Theme Name: Stabekk Kino Beans child 
+Description: Starter Child Theme for the Beans Theme.
+Author: Beans
+Author URI: http://www.getbeans.io
+Template: tm-beans
+Version: 1.0.0
+Text Domain: tm-beans
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+html {
+	font-size: 16px;
+}
+
+.tm-header {
+	height: 110px;
+	padding-top: 2px;
+	background-color: black;
+	color: white;
+}
+
+/* Example CSS for the sticky header */
+header.uk-active {
+	background-color: black;
+	padding: 20px 0 30px 30px;
+}
+
+header.uk-active .tm-logo {
+	height: 80px;
+	padding-top: 10px;
+}
+
+ .home .tm-main {
+	/* background: #e0d4e0cc url('http://webkonsulenten.com/wp-content/uploads/god-sommer-200.jpg; ');
+	background-repeat:no-repeat;
+	/* background-attachment:fixed; */
+	/* background-size: c10over; */
+	/* background-size: 100% 200px;
+	/* padding-top: 150px !important; */
+	background-color: #dad2d2;	
+}
+
+/* Removes extra space before and after P */
+.home p {
+    display: block;
+    -webkit-margin-before: 0em !important;
+    -webkit-margin-after: 0em !important;
+    -webkit-margin-start: 0px !important;
+    -webkit-margin-end: 0px !important;
+	margin-after: 0em;
+    margin-start: 0px;
+    margin-end: 0px;
+}
+
+.home p,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+address,
+fieldset,
+figure {
+	margin: 0 0 0 0 !important;
+}
+
+
+/* Less padding */
+.home .uk-block {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Less padding */
+.uk-container {
+    box-sizing: border-box;
+    /* max-width: 980px; */
+    padding: 0 0 !important;
+}
+
+
+/* Tigher from image up to header. */
+.home .uk-panel-box {
+    	padding: 0px;
+}
+
+/* Padding 0 removes padding from ui-kit so that content moves closer toward the top. */
+.tm-main {
+	/* padding-top: 0; */
+}
+
+.home .tm-content {
+	border-radius: 4px !important;
+	/* padding: 50px; */
+	background: transparent;
+}
+
+.tm-content {
+	/* margin-top: 200px !important; */ /* For top 200px image banner */
+}
+
+.home .uk-panel-box {
+	background: transparent;
+}
+
+
+.widget-hero {
+	/* background-image:url('/wp-content/uploads/Godsommer-1.jpg; ');
+	background-repeat:no-repeat;
+	background-attachment:fixed; 
+	background-size: cover; 
+	height: 300px;
+	width: 100%; */
+}
+
+/* ----- Primary menu ----*/
+
+ .tm-primary-menu {
+    font-size: 16px;
+    height: 40px; 
+    border: 1px solid #333; 
+	border: 0;
+	
+	margin: 40px 0 0 40px;
+	float: left;
+ }
+ 
+ /* Each menu item */
+ .tm-primary-menu .menu-item > a, 
+ .uk-nav-side > li > a  {
+     color: #fff;  /*#d9cb9e */
+     font-size: 18px;
+     height: 40px;
+     background: none;
+ }
+
+/* Hover effect */
+ .tm-primary-menu .menu-item > a:hover,
+ .uk-nav-side .menu-item > a:hover {
+     background: none;
+     color: #c02130;  
+ }
+ 
+ /* NB!! 
+Clicking a menu link shows a white background square. To adjust this add the following code. */
+.uk-nav-dropdown > li > a:hover, 
+.uk-nav-dropdown > li > a:focus,
+.uk-navbar-nav > li:hover > a, 
+.uk-navbar-nav > li > a:focus, 
+.uk-navbar-nav > li.uk-open > a,
+.uk-navbar-nav > li > a:active,
+.uk-navbar-nav > li.uk-active > a {
+    background-color: transparent !important;
+    color: white;
+} 
+
+  
+  /* Current page */
+  /* Styling all menus: .uk-navbar-nav>li.uk-active>a */
+  .tm-primary-menu, .current-menu-item > a {
+     background: none !important;
+     color: #c02130 !important;
+  }
+
+/* Sub menu */
+
+/* Adjusting the default space above and below the submenu. */
+.uk-dropdown-navbar {
+    background: #000;
+	margin-top: 15px;
+    padding-top: 25px;
+}
+
+/* Sub menu each menu item. */
+ .tm-primary-menu .menu-item li > a,
+ .uk-nav-side .menu-item li > a {
+    margin: 0;
+    color: #fff;
+ }
+
+/* Sub menu hover each menu item*/
+ /* Styling all drop down menus: .uk-dropdown .uk-nav a:hover  */
+ .tm-primary-menu .menu-item li>a:hover,
+ .uk-nav-side .menu-item li>a:hover {
+    margin: 0;
+    color: #c02130;
+ }
+
+/* Footer menu */
+/* Open submenu might show another menu item color. */
+.uk-nav-side ul a {
+    color: #fff;
+	overflow: visible !important;
+}
+
+/* ---- MENU END ---*/
+
+ 
+ 
+ /* Footer widget area. */
+ .footer-widget.uk-block {
+ 	padding: 25px 0 10px 0 !important;
+ 	background-color: black;
+ 	color: white;
+ }
+ 
+ .uk-panel-title {
+     color: white !important;
+ }
+ 
+ 
+ /* Copyright area. */
+ .tm-footer {
+ 	/* height: 48px; */
+ 	padding: 10px 0 0 0;
+ 	background-color: black;
+ 	color: white;
+ 	border-top: 1px solid #333;
+ }
+ 
+/* Footer widget area. */
+.widget_nav_menu {
+	width: 65%;
+	float: right;
+}
+
+/* Used for the responsive menu button - Hamburger icon. */
+.uk-button {
+    color: #fff;
+    background: none;
+}
+
+/* Used for the responsive menu button - Hamburger icon. */
+.uk-button:hover, .uk-button:focus {
+    background-color: none !important;
+    color: red;
+}
+
+
+/* ---- RESPONSIVE ----- */
+
+@media (min-width: 768px) {
+	.uk-block {
+  	  padding-top: 0; 
+   	  padding-bottom: 0; 
+	}
+}
+
+
+@media only screen and (max-width: 1040px) {		
+	/* Contact form */
+	#wpcf7-f39-p70-o1 {
+		min-width: 150px;
+	}
+	
+	/* colum iframe map */
+	.page-id-70 .one_half {
+    	width: 65%;
+	}
+	
+	iframe {
+  		float: left;
+		width: 100%;
+	}
+		
+}
+
+
+@media only screen and (max-width: 960px) {
+	.tm-logo {
+		width: 300px;
+	}
+	
+	.tm-header {
+		height: 85px;
+	}
+	
+	.tm-primary-menu {
+    	margin: 40px 0 0 10px;
+		float: right;
+	}
+
+}
+
+
+@media only screen and (max-width: 810px) {
+		
+	.widget_nav_menu {
+		width: 60%;		
+	}	
+	
+	.custom_html-7 {
+		width: 95%;
+		float: right;
+		padding-left: 5px;
+	}
+	
+	.tm-logo {
+		width: 250px;
+	}
+	
+	/* contact form. */
+	.one_third {
+    	width: 100%;
+	}
+	
+	/* iframe map */
+	.one_half {
+    	width: 100%;
+	}
+		
+}
+
+
+@media only screen and (max-width: 765px) {
+	/*.home .tm-main {
+		background-image: none !important;
+	}*/
+	
+	.widget_nav_menu {
+		width: 100%;	
+	}
+	
+}
+
+@media only screen and (max-width: 500px) {
+	.home .tm-main {
+		
+	}
+			
+}
+
+ 
+ 
+ /* ----- Plugin customization ----*/
+
+
+/* Contact form 7 send button. */
+#send-button {
+	color: white;
+	background-color: #c02130;
+	padding: 5px 15px;
+	border-radius: 4px;
+	border: 1px solid #333;
+	cursor: pointer;
+}
+
+.gridable--col.col-6 {
+	background: #f9f7f7 !important;
+	padding: 15px;
+}
+
+.evo_cal_above {
+    padding-bottom: 0;
+}
+
+/* Hide Eventon header */
+.ajde_evcal_calendar.ul .calendar_header {
+     display: none;
+}
