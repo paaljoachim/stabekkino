@@ -1,2 +1,2 @@
 # stabekkino
-A WordPress beans child theme used at stabekkino.no
+A WordPress Beans Framework child theme used at stabekkino.no
